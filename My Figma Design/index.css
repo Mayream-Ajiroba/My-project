@@ -1,0 +1,146 @@
+
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+/*@media(max-width:700px){*/
+
+    .my_figma{
+        border: 2px solid red;
+        width: 90%;
+        height: 1000px;
+        justify-content: center;
+        font-family: inter;
+    }
+.splash_Screen{
+    border: 2px solid brown;
+    width: 300px;
+    height: 532px;
+    background: linear-gradient(#e9f7ed8a, #0adb45bb );
+    border-radius: 5px;
+    justify-content: center;
+}
+.image{
+    display: flex;
+    position: relative;
+    margin-top: 130px;
+    margin-bottom: 15px;
+}
+.text h2{
+    text-align: center;
+    font-size: 18px;
+    color: #079F31;
+}
+.text h3 {
+    text-align: center;
+    font-size: 16px;
+}
+.text p{
+    text-align: center;
+    font-size: 12px;
+}
+
+.onbording_screen{
+    border: 2px solid brown;
+    width: 300px;
+    height: 532px;
+    background-color: #E6F8EB;
+    border-radius: 5px;  
+}
+.imagee{
+    display: flex;
+    position: relative;
+    margin-top: 130px;
+    margin-bottom: 15px;   
+}
+.pps{
+    text-align: center;
+}
+.pps .bxs-circle{
+    font-size: 8px;
+}
+.onbording_screen .button{
+    margin-top: 80px;
+    display: flex;
+}
+.registrationBth{
+
+    background-color:#079F31 ;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.loginBth{
+    width: 90px;
+    height: 30px;
+    border: 1.7px solid #079F31 ;
+    border-radius: 5px;  
+}
+
+.registration_screen{
+    border: 2px solid #ffff;
+    width: 300px;
+    height: 532px;
+    background-color: #ffff;
+    border-radius: 5px; 
+}
+.registration_screen h2{
+    color: #079F31 ;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+.input{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+.input label{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.input input{
+    width: 95%;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    font-size: 12px;
+    outline: none;
+    padding: 5px 10px;
+    background-color: #E6F8EB;
+}
+
+.home_page{
+    border: 2px solid #c70d9f;
+    width: 300px;
+    height: 532px;
+    background-color: #ffff;
+    border-radius: 5px;  
+}
+.search i{
+ margin-left: 50px;
+}
+.pastQuestios{
+border: 2px solid orange;
+width: 100%;
+height: fit-content;
+display: flex;
+padding: 10px;
+background: linear-gradient(#cedad1e0, #1fec59bb);
+}
+.recent{
+display: flex;
+justify-content: flex-end;
+}
+.text{
+    justify-content: space-between;
+}
