@@ -6,66 +6,61 @@
     font-family: 'poppins', sans-serif;
 }
 
-/*@media(max-width:700px){*/
+@media(max-width:700px){
 
-    .my_figma{
-        border: 2px solid red;
-        width: 90%;
-        height: 1000px;
-        justify-content: center;
-        font-family: inter;
-    }
-.splash_Screen{
-    border: 2px solid brown;
+.splashScreen{
+    border: 2px ;
     width: 300px;
     height: 532px;
-    background: linear-gradient(#e9f7ed8a, #0adb45bb );
-    border-radius: 5px;
-    justify-content: center;
+    background: linear-gradient(#E6F8EB, #079F31);
+    border-radius: 5px;  
+    margin-top: 40px; 
 }
-.image{
-    display: flex;
-    position: relative;
-    margin-top: 130px;
-    margin-bottom: 15px;
+.fountain-logo{
+   text-align: center;
+   margin-top: 150px;
+   padding: 10px;
 }
-.text h2{
+.splash-text{
     text-align: center;
-    font-size: 18px;
-    color: #079F31;
+    margin-top: 10px;
 }
-.text h3 {
-    text-align: center;
+.splash-text h3{
     font-size: 16px;
 }
-.text p{
-    text-align: center;
+.splash-text h4{
+    font-size: 14px;
+}
+.splash-text p{
     font-size: 12px;
 }
 
-.onbording_screen{
-    border: 2px solid brown;
+.onbordingScreen{
+    border: 2px solid ;
     width: 300px;
     height: 532px;
     background-color: #E6F8EB;
     border-radius: 5px;  
+    margin-top: 40px; 
 }
-.imagee{
-    display: flex;
-    position: relative;
-    margin-top: 130px;
-    margin-bottom: 15px;   
-}
-.pps{
+.image{
     text-align: center;
+   margin-top: 90px;
+   padding: 10px;
 }
-.pps .bxs-circle{
-    font-size: 8px;
+.text{
+    text-align: center; 
 }
-.onbording_screen .button{
+.text p{
+    font-size: 18px;
+}
+.text .bxs-circle{
+    font-size: 10px; 
+}
+.onbording-button{
     margin-top: 80px;
     display: flex;
-}
+} 
 .registrationBth{
 
     background-color:#079F31 ;
@@ -78,8 +73,9 @@
 .loginBth{
     width: 90px;
     height: 30px;
-    border: 1.7px solid #079F31 ;
-    border-radius: 5px;  
+    border: 2px solid #079F31;
+    border-radius: 5px;
+    background-color: #ffffff;  
 }
 
 .registration_screen{
@@ -88,6 +84,7 @@
     height: 532px;
     background-color: #ffff;
     border-radius: 5px; 
+    margin-top: 50px;
 }
 .registration_screen h2{
     color: #079F31 ;
@@ -116,31 +113,112 @@
     font-size: 12px;
     outline: none;
     padding: 5px 10px;
-    background-color: #E6F8EB;
+    background-color: #ffff;
 }
 
 .home_page{
-    border: 2px solid #c70d9f;
+    border: 2px solid #ffff;
     width: 300px;
     height: 532px;
     background-color: #ffff;
     border-radius: 5px;  
 }
-.search i{
- margin-left: 50px;
+.avater{
+    display: flex;
+    margin-top: 30px;
+}
+.hello h4{
+    margin-left: 10px;
+    padding: 5px;
+}
+.hello p{
+    padding: 3px;
+    margin-left: 9px;
+}
+.search{
+margin-left: 18px;
+margin-bottom: 25px;
+}
+.search input{
+    width: 95%;
+    height: 25px;
+    border: 2px solid #079F31;
+    border-radius: 8px;
+    margin-top: 20px;
 }
 .pastQuestios{
-border: 2px solid orange;
-width: 100%;
-height: fit-content;
+width: 90%;
+height: 100px;
 display: flex;
 padding: 10px;
-background: linear-gradient(#cedad1e0, #1fec59bb);
+background-color: #079F31;
 }
 .recent{
 display: flex;
 justify-content: flex-end;
+padding:5px;
+font-size: 14px;
 }
 .text{
-    justify-content: space-between;
+    justify-content: space-evenly;
+    word-spacing: 1.5rem;
+    padding: 5px;
+}
+.text p{
+    font-size: 8px;
+}
+.recommendations h3{
+    font-size: 14px;
+    margin-left: 20px;
+}
+.BCH{
+    display: flex;
+    padding: 5px;
+    margin-top: 12px;
+    border: 1px solid #d4d1d1f5;
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px #d4d1d121 ;
+}
+.bch-text{
+    display: flex;
+    flex-direction: column;
+}
+.bch-text :first-child{
+    margin-right: 80px;
+}
+.bch-text :last-child{
+    word-spacing: 20px;
+    margin-right: 5px;
+}
+.MIB{
+    display: flex;
+    padding: 5px;
+    margin-top: 15px;
+    border: 1px solid #d4d1d1f5;
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px #d4d1d121 ;
+}
+.mib-text{
+    display: flex;
+    flex-direction: column;
+}
+.mib-text :first-child{
+    margin-right: 80px;
+}
+.mib-text :last-child{
+    word-spacing: 20px;
+    margin-right: 5px;
+}
+.home-menu{
+    display: flex;
+    margin-top: 15px;
+}
+.home-menu p{
+    font-size: 12px;
+    text-align: center;
+}
 }
